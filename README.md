@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.LogNormal;
+})();
 })();
 </script>
 ```
@@ -300,6 +302,7 @@ y = lognormal.quantile( 1.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var lognormal = new LogNormal( 2.0, 1.0 );
 
@@ -315,6 +318,7 @@ var s2 = lognormal.variance;
 var y = lognormal.cdf( 0.8 );
 // returns ~0.013
 
+})();
 })();
 </script>
 </body>
