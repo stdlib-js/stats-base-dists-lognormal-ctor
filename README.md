@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@deno/mod.js';
+import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@v0.1.0-deno/mod.js';
 ```
 
 #### LogNormal( \[mu, sigma] )
@@ -292,7 +292,7 @@ y = lognormal.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@deno/mod.js';
+import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@v0.1.0-deno/mod.js';
 
 var lognormal = new LogNormal( 2.0, 1.0 );
 
