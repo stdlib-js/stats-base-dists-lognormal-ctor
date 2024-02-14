@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-lognormal-ctor/tags). For example,
+
+```javascript
 import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@v0.2.0-esm/index.mjs';
 ```
 
@@ -297,7 +302,7 @@ y = lognormal.quantile( 1.9 );
 <body>
 <script type="module">
 
-import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@v0.2.0-esm/index.mjs';
+import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@esm/index.mjs';
 
 var lognormal = new LogNormal( 2.0, 1.0 );
 
