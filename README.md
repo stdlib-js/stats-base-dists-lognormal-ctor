@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@esm/index.mjs';
+import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@v0.2.0-esm/index.mjs';
 ```
 
 #### LogNormal( \[mu, sigma] )
@@ -297,7 +297,7 @@ y = lognormal.quantile( 1.9 );
 <body>
 <script type="module">
 
-import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@esm/index.mjs';
+import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@v0.2.0-esm/index.mjs';
 
 var lognormal = new LogNormal( 2.0, 1.0 );
 
