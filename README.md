@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-lognormal-ctor/tags). For example,
+
+```javascript
 import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@v0.2.2-deno/mod.js';
 ```
 
@@ -292,7 +297,7 @@ y = lognormal.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@v0.2.2-deno/mod.js';
+import LogNormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-ctor@deno/mod.js';
 
 var lognormal = new LogNormal( 2.0, 1.0 );
 
