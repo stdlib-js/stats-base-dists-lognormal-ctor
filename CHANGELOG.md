@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-18)
+## Unreleased (2025-02-20)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
 -   [`ae08a29`](https://github.com/stdlib-js/stdlib/commit/ae08a29eb928357ae97532f0c3f398b0fef58ebd) - **bench:** refactor random number generation in `stats/base/dists/lognormal` [(#5164)](https://github.com/stdlib-js/stdlib/pull/5164) _(by Saurabh Singh)_
 
 </details>
@@ -36,8 +37,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Karan Anand
 -   Saurabh Singh
 
 </section>
