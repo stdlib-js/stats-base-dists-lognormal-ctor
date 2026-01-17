@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2026-01-17)
 
 <section class="issues">
 
@@ -24,6 +24,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`960af8f`](https://github.com/stdlib-js/stdlib/commit/960af8f193a0e7eaa20215e8ae231f943e825366) - **bench:** update random value generation [(#9781)](https://github.com/stdlib-js/stdlib/pull/9781) _(by Harsh Yadav)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
 -   [`ae08a29`](https://github.com/stdlib-js/stdlib/commit/ae08a29eb928357ae97532f0c3f398b0fef58ebd) - **bench:** refactor random number generation in `stats/base/dists/lognormal` [(#5164)](https://github.com/stdlib-js/stdlib/pull/5164) _(by Saurabh Singh)_
 
@@ -37,9 +39,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Harsh Yadav
 -   Karan Anand
+-   Philipp Burckhardt
 -   Saurabh Singh
 
 </section>
